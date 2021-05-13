@@ -5,7 +5,7 @@ for all the question except 4
 node filename.js it will run code file
 
 For Question number 4
-create projet using npx create-react-app myapp
+create projcet using npx create-react-app myapp
 go to the project folder and install axios dependency.
 using npm install axios command
 copy the code into App.js from 4-fetchdata-App.js

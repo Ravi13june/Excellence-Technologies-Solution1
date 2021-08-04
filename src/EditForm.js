@@ -15,10 +15,10 @@ export default function EditForm({
         value={currentTodo.text}
         onChange={onEditInputChange}
       />
-      <button type="submit" onClick={onEditFormSubmit}>
+      <button className="btn btn-success" type="submit" onClick={onEditFormSubmit}>
         Update
       </button>
-      <button onClick={() => setIsEditing(false)}>Cancel</button>
+      <button onClick={() => setIsEditing(false)} className="btn btn-danger">Cancel</button>
     </form>
   );
 }
